@@ -1,13 +1,10 @@
 /** @format */
 "use client";
 import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
 import { useRouter } from "next/navigation";
-import { REGEXP_ONLY_DIGITS_AND_CHARS } from "input-otp";
 import {
     InputOTP,
     InputOTPGroup,
-    InputOTPSeparator,
     InputOTPSlot,
 } from "@/components/ui/input-otp";
 
